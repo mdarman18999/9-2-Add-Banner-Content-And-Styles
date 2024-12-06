@@ -213,6 +213,24 @@ main{
     width: 165px;
 }
 
+
+
+/* footer section */
+
+.footer-div{
+    text-align: center;
+    border: 2px ;
+    background: #FFF4E7 ;
+    margin: 100px ;
+    border-radius: 10px;
+    padding: 20px;
+    
+   
+}
+footer{
+    border-color: none;
+}
+
 /* responsive styles media queries */
 /* movile devices */
 @media screen  and (max-width: 576px){
@@ -224,6 +242,7 @@ main{
     .features,
     .facts-card-container,
     .sponsors-img-container
+   
     {
         flex-direction: column;
     }
@@ -248,6 +267,9 @@ main{
     }
     .facts-card-container{
         gap: 20px;
+    }
+    .footer-div{
+        grid-row: column;
     }
 }
 
